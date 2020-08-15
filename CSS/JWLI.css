@@ -1,0 +1,673 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+}
+
+header{
+  height: 80px;
+  border: 2px solid black;
+  clear: both;
+  border-color: rgba(186, 197, 207, 0);
+}
+
+li{
+  display: inline-block;
+  padding-right: 50px;
+  font-size: 20px;
+}
+
+nav{
+  text-align: center;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+a:hover{
+  color: purple;
+}
+
+#top{
+  border: 2px solid black;
+  height: 300px;
+  width: 100%;
+  background-color: rgba(241, 243, 245, 0.9);
+  border-color: rgba(241, 243, 245, 0);
+}
+
+.logo{
+  height: 75px;
+  width: 15%;
+  margin-left: 12%;
+  margin-top: 3%;
+}
+
+.logo2{
+  display: none;
+}
+
+.textone{
+  width: 36%;
+  margin-left: 3%;
+}
+
+.textone > h2{
+  font-weight: 200;
+}
+
+.textone > h2 + p{
+  font-size: 15px;
+}
+
+.email{
+  margin-left: 3%;
+}
+
+.email > span{
+  font-size: 13px;
+}
+
+.email > span + form{
+  padding-top: 10px;
+}
+
+.lady{
+  float: right;
+  width: 30%;
+  margin-top: -22.4%;
+  margin-right: 18%;
+}
+
+.ladyicon{
+  width: 300px;
+  height: 300px;
+  opacity: 0.5;
+}
+
+.leftside{ /*LEFT SIDE TOP*/
+  width: 60%;
+  display: inline;
+}
+
+.rightside{ /*RIGHT SIDE TOP*/
+  width: 40%;
+  display: inline;
+}
+
+
+
+#middle{
+  border: 2px solid black;
+  height: 300px;
+  width: 100%;
+  border-bottom: 0;
+  margin: 0;
+  border-color: rgba(241, 243, 245, 0);
+}
+
+.texttwo{
+  clear: both;
+}
+
+.texttwo > h3{
+  font-weight: 100;
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.leftsmall, .rightsmall{
+  border: 2px solid black;
+  height: 100px;
+  width: 30%;
+  float: left;
+  margin-left: 13%;
+  margin-top: 4%;
+  border-color: red;
+
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 0;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.midlast{
+  width: 100%;
+
+}
+
+.midlast p{
+  font-size: 15px;
+  text-align: center;
+  font-style: italic;
+  width: 66%;
+  margin-left: 17%;
+}
+
+#secondlast{
+  border: 2px solid black;
+  height: 500px;
+  width: 100%;
+  background-color: rgba(241, 243, 245, 0.9);
+  border-color: rgba(241, 243, 245, 0);
+}
+
+.leftside2{
+  border: 2px solid black;
+  height: 500px;
+  width: 50%;
+  padding-left: 3%;
+  float: left;
+  border-color: rgba(241, 243, 245, 0);
+}
+
+.leftside2 > p{
+  width: 75%;
+}
+
+.rightside2{
+  border: 2px solid black;
+  height: 500px;
+  width: 50%;
+  padding-left: 15%;
+  float: left;
+  padding-top: 3%;
+  border-color: rgba(241, 243, 245, 0);
+}
+
+.toppic{
+  padding-bottom: 7%;
+}
+
+#bottom{
+  border: 2px solid black;
+  height: 350px;
+  width: 100%;
+  border-color: rgba(186, 197, 207, 0);
+}
+
+#bottom h2{
+  width: 100%;
+  text-align: center;
+  font-weight: 200;
+
+}
+
+.ladyphoto{
+  border: 2px solid black;
+  width: 22%;
+  margin-left: 23%;
+  border-color: rgba(186, 197, 207, 0);
+}
+
+.words{
+  border: 2px solid black;
+  height: 200px;
+  width: 41%;
+  float: left;
+  margin-left: 48%;
+  margin-top: -22%;
+  border-color: rgba(186, 197, 207, 0);
+}
+
+#bottom2{
+  border: 2px solid black;
+  height: 350px;
+  width: 100%;
+  border-color: rgba(186, 197, 207, 0);
+}
+
+.leftside3{
+  border: 2px solid black;
+  height: 300px;
+  width: 50%;
+  float: left;
+  border-color: rgba(186, 197, 207, 0);
+}
+
+.gray{
+  color: grey;
+  margin-left: 12%;
+}
+
+.gray + p{
+    width: 70%;
+    margin-left: 11%;
+}
+
+.rightside3{
+  border: 2px solid black;
+  height: 300px;
+  width: 50%;
+  float: left;
+  border-color: rgba(186, 197, 207, 0);
+}
+
+
+footer{
+  height: 250px;
+  border: 2px solid black;
+  border-color: rgba(186, 197, 207, 0);
+  clear: both;
+}
+
+.upper{
+  border: 2px solid black;
+  height: 50px;
+  background-color: rgba(186, 197, 207, 1);
+  border-color: rgba(186, 197, 207, 0);
+}
+
+.down{
+  border: 2px solid black;
+  height: 200px;
+  background-color: rgba(145, 156, 162, 1);
+  border-color: rgba(186, 197, 207, 0);
+}
+
+.upper > ul{
+  text-align: center;
+  margin-top: 1%;
+}
+
+.upper > ul > li{
+  color: white;
+}
+
+.whiteline{
+  margin-top: 2%;
+  margin-left: 4%;
+  border: 2px solid black;
+  border-color: white;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  padding-bottom: 1%;
+  width: 92%;
+}
+
+.down > section > span{
+  color: white;
+}
+
+.down > ul{
+  float: right;
+  margin-top: -3%;
+}
+
+.down > ul > li{
+  font-size: 15px;
+  color: white;
+}
+
+.lists > ul{
+  display: inline-grid;
+  border-bottom: 0;
+}
+
+.lists > ul > li{
+  font-size: 15px;
+}
+
+.lists{
+  float: left;
+  color: white;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.lists2{
+  display: inline-block;
+  color: white;
+  font-size: 12px;
+}
+
+.lists2 > ul > li > a{
+  color: white;
+}
+
+.lists2 > ul > li > a:hover{
+  color: blue;
+}
+
+.disappear{
+  display: none;
+}
+
+/*mobile*/
+@media only screen and (max-width: 600px){
+  .logo{
+    display: none;
+  }
+
+  .textone{
+    width: 100%;
+  }
+
+  .textone > h2{
+    text-align: center;
+  }
+
+  .textone > p{
+    text-align: center;
+  }
+
+  .lady{
+    display: none;
+  }
+
+  .email{
+    text-align: center;
+    margin-top: 13%;
+  }
+
+  .texttwo > h3{
+    display: none;
+  }
+
+  .midlast > p{
+    display: none;
+  }
+
+  .leftsmall, .rightsmall{
+    margin-top: 15%;
+  }
+
+  .leftside2 > p{
+    display: none;
+  }
+
+  .toppic{
+    margin-left: -44%;
+  }
+
+  .botpic{
+    float: right;
+    margin-right: 154%;
+  }
+
+  .leftside2 > h3{
+    margin-top: 41%;
+    margin-left: 21%;
+  }
+
+  .words{
+    display: none;
+  }
+
+  .logo2{
+    display: block; /*HEREEE*/
+    margin-left: 14%;
+  }
+
+  #bottom{
+    margin-top: 1%;
+    height: 250px;
+  }
+
+  .photo{
+    display: none;
+  }
+
+  #bottom2{
+    display: none;
+  }
+
+
+  .upper > ul{
+    text-align: center;
+    margin-top: 0%;
+  }
+
+  .upper > ul > li{
+    color: white;
+    font-size: 18px;
+  }
+
+  .whiteline > span{
+    display: none;
+  }
+
+  .whiteline + ul > li{
+    display: none;
+  }
+
+  .lists{
+    display: none;
+  }
+
+  .down{
+    display: none;
+  }
+
+  footer{
+    display: none;
+  }
+
+}
+
+/*Tablet*/
+@media (min-width:601px) and (max-width:800px){
+
+  .logo1{
+    width: 100%;
+    text-align: center;
+  }
+
+  .logo{
+    margin: 0;
+    width: 25%;
+    margin-left: 8%;
+    margin-top: 1%;
+  }
+
+  .textone{
+    width: 100%;
+  }
+
+  .textone > h2 + p {
+    font-size: 15px;
+    width: 50%;
+    margin-left: 25%;
+  }
+
+  .textone > h2{
+    text-align: center;
+  }
+
+  .textone > p{
+    text-align: center;
+  }
+
+  .lady{
+    display: none;
+  }
+
+  .email{
+    text-align: center;
+  }
+
+  .texttwo > h3 {
+    font-weight: 100;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 6%;
+    font-weight: bold;
+}
+
+  .leftsmall, .rightsmall{
+    margin-top: 8%;
+  }
+
+  .midlast{
+    display: none;
+  }
+
+  .toppic{
+    margin-left: -44%;
+  }
+
+  .botpic{
+    float: right;
+    margin-right: 154%;
+  }
+
+  .leftside2 > h3{
+    margin-top: 41%;
+    margin-left: 21%;
+  }
+
+  .leftside2 > p{
+    display: none;
+  }
+
+  #bottom{
+    margin-top: 2%;
+    height: 250px;
+    margin-left: -13%;
+  }
+
+  #bottom h2{
+    width: 100%;
+    font-weight: 200;
+    margin-left: -16%;
+    font-weight: bold;
+  }
+
+  .words{
+    margin-top: -36%;
+    width: 50%;
+  }
+
+  #bottom2{
+    display: none;
+  }
+
+  footer{
+    display: none;
+  }
+
+}
+
+/*DESKTOP*/
+@media (min-width: 801px) and (max-width: 1080px){
+  .logo1{
+    width: 100%;
+    text-align: center;
+  }
+
+  .logo{
+    margin: 0;
+    width: 25%;
+    margin-left: 8%;
+    margin-top: 1%;
+  }
+
+  .textone{
+    width: 100%;
+  }
+
+  .textone > h2 + p {
+    font-size: 15px;
+    width: 50%;
+    margin-left: 25%;
+  }
+
+  .textone > h2{
+    text-align: center;
+  }
+
+  .textone > p{
+    text-align: center;
+  }
+
+
+  .lady{
+    display: none;
+  }
+
+
+  .email{
+    text-align: center;
+  }
+
+  .texttwo > h3 {
+    font-weight: 100;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 6%;
+    font-weight: bold;
+}
+
+  .leftsmall, .rightsmall{
+    margin-top: 8%;
+  }
+
+
+
+  .toppic{
+    margin-left: -100%;
+  }
+
+  .botpic{
+    float: right;
+    margin-right: 200%;
+  }
+
+  .disappear{
+    display: block;
+    width: 100%;
+    margin: 0;
+    margin-left: 75%;
+    margin-top: 21%;
+  }
+
+  .leftside2 > h3{
+    margin-top: 41%;
+    margin-left: 21%;
+  }
+
+  .leftside2 > p{
+    display: none;
+  }
+
+
+  #bottom{
+    margin-top: 2%;
+    height: 250px;
+    margin-left: -13%;
+  }
+
+  #bottom h2{
+    width: 100%;
+    font-weight: 200;
+    margin-left: -16%;
+    font-weight: bold;
+  }
+
+  .words{
+    margin-top: -32%;
+    width: 50%;
+  }
+
+  #bottom2{
+    display: none;
+  }
+
+  .lists2 > ul > li > a{
+    display: none;
+  }
+
+}
