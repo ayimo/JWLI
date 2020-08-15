@@ -671,3 +671,18 @@ footer{
   }
 
 }
+
+@media (min-width: 1260px){
+  .ladyicon{
+    display: none;
+  }
+
+  #top{
+    text-align: -webkit-center;
+  }
+
+  .logo{
+    margin-left: 0;
+  }
+
+}
